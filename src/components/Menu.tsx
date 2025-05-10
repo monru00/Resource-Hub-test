@@ -18,7 +18,7 @@ const Menu = () => {
         onClick={() => setOpen((prev) => !prev)}
       />
       {open && (
-        <div className="bg-black text-[rgb(105, 105, 105)] left-0 top-20 w-full absolute">
+        <div className="bg-black text-gray-500 left-0 top-20">
           <Link href="/">Home</Link>
           <Link href="/">Resources</Link>
           <Link href="/">FAQ</Link>
@@ -33,4 +33,3 @@ const Menu = () => {
 };
 
 export default Menu;
-// absolute bg-black text-[rgb(105, 105, 105)] left-0 top-20 w-full h-[285px]
